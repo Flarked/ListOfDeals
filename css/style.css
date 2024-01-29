@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 22px;
+    background-color: #666666;
+}
+
+
+
+.outline {
+    background-color: #e9c46a;
+    padding: 5px;
+    border: 3px solid #000000;
+    border-radius: 15px;
+    margin: auto;
+    align-items: center;
+}
+
+.nameInput {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    background-color: #082e00;
+    color: white;
+    font-size: 22px;
+    border: 1px solid #2a9d8f;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+input::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+button {
+    background-color: #2a9d8f;
+    color: white;
+    font-size: 22px;
+    border: 1px solid #082e00;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#myButton {
+    margin-right: 20px;
+}
+
+main {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+ul {
+    text-align: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    font-size: 22px;
+    padding: 0px;
+}
+
+.item {
+    margin: auto;
+    margin-bottom: 5px;
+    background-color: #188f00;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    align-items: center;
+    text-align: left;
+    display: flex
+}
+
+.dbtn {
+    margin-left: auto;
+}
+
+#delDialog {
+    border: 2px solid;
+    border-radius: 10px;
+    margin-top: auto;
+    background-color: rgba(41, 41, 41, 0.9);
+    
+}
